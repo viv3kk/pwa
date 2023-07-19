@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://www.cars24.com/ae/static/js/8204a0ef62ec940c788094ff723f8df1.svg" alt="logo"  />
         <p>
           Demo PWA.
         </p>
