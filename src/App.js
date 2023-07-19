@@ -1,16 +1,9 @@
 import React from 'react';
-import Lottie from 'react-lottie';
-import * as c24Animated from './splash.json'
+import Lottie from 'react-lottie-player'
+import * as c24lottieJson from './splash.json'
 import './App.css';
 
-const defaultOptions = {
-  loop: true,
-  autoplay: true, 
-  animationData: c24Animated,
-  rendererSettings: {
-    preserveAspectRatio: 'xMidYMid slice'
-  }
-};
+
 
 function App() {
   return (
@@ -20,10 +13,12 @@ function App() {
         <p>
           Welcome to Cars24 Rider
         </p>
-        <Lottie options={defaultOptions}
-              height={200}
-              width={200}
-              />
+        <Lottie
+          loop
+          animationData={c24lottieJson}
+          play
+          style={{ width: 300, height: 600 }}
+        />
 
       </header>
     </div>
