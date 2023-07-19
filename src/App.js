@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+import Lottie from 'react-lottie';
+import * as c24Animated from './splash.json'
 import './App.css';
+
+const defaultOptions = {
+  loop: true,
+  autoplay: true, 
+  animationData: c24Animated,
+  rendererSettings: {
+    preserveAspectRatio: 'xMidYMid slice'
+  }
+};
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <img src="https://www.cars24.com/ae/static/js/8204a0ef62ec940c788094ff723f8df1.svg" alt="logo"  />
         <p>
-          Demo PWA.
+          Welcome to Cars24 Rider
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Lottie options={defaultOptions}
+              height={200}
+              width={200}
+              />
+
       </header>
     </div>
   );
