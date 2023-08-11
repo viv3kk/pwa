@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.cars24.uaeusedcars",
+               "sha256_cert_fingerprints": ["4A:A9:0E:52:69:4A:03:C0:15:8E:06:F2:6A:1E:68:A6:B2:E9:0F:9B:52:FA:3E:35:A6:72:AC:30:19:B2:8A:C4"] }
+}]
