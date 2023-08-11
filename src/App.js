@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src="https://www.cars24.com/ae/static/js/8204a0ef62ec940c788094ff723f8df1.svg" alt="logo"  />
         <p>
-          Welcome to Cars24 Rider
+          Welcome to Cars24 Rider (PWA)
         </p>
         <Lottie
           loop
